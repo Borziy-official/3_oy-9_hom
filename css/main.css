@@ -1,0 +1,63 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itm {
+    width: 100%;
+    max-width: 190px;
+    padding: 20px 30px;
+    border: 2px solid #000;
+    border-radius: 7px;
+}
+
+.list-titl {
+    margin: 5px 0 15px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.itm:nth-child(1)::before {
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("https://glistening-maamoul-2d35fc.netlify.app/images/user.png");
+    background-repeat: no-repeat;
+    background-size: 45px;
+    content: "";
+}
+
+.itm:nth-child(2)::before {
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("https://glistening-maamoul-2d35fc.netlify.app/images/bicycle.png ");
+    background-repeat: no-repeat;
+    background-size: 45px;
+    content: "";
+}
+
+.itm:nth-child(3)::before {
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("https://glistening-maamoul-2d35fc.netlify.app/images/car.png");
+    background-repeat: no-repeat;
+    background-size: 45px;
+    content: "";
+}
+
+.itm:nth-child(4)::before {
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("https://glistening-maamoul-2d35fc.netlify.app/images/airplane.png");
+    background-repeat: no-repeat;
+    background-size: 45px;
+    content: "";
+}
